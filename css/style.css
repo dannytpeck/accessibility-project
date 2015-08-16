@@ -14,6 +14,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 /***************************
 Header
 ***************************/
@@ -32,6 +34,8 @@ h1 {
     height: 66px;
     background: url('../images/widget.png') top left no-repeat;
 }
+
+
 
 /***************************
 Navigation
@@ -56,4 +60,44 @@ a {
     color: #eac657;
     text-decoration: none;
     border-radius: 10px;
+}
+
+a:hover, a:focus {
+    color: #d2b14e;
+    background: #000;
+}
+
+
+
+/***************************
+Content
+***************************/
+
+img {
+    max-width: 100%;
+}
+
+#widget_pic {
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    height: 300px;
+}
+
+#content {
+    width: 65%;
+    float: left;
+}
+
+#about {
+    font-size: 1.3em;
+    margin: 20px 0px;
+    float: left;
+}
+
+#about p {
+    background: #d2b14e;
+    padding: 20px;
+    font-style: italic;
+    font-size: 0.9em;
 }
