@@ -101,3 +101,44 @@ img {
     font-style: italic;
     font-size: 0.9em;
 }
+
+
+
+/***************************
+Table
+***************************/
+
+#compare {
+    float: left;
+    font-weight: bold;
+}
+
+#product_table {
+    float: left;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+#product_table thead {
+    background: url('../images/texture.png') top left;
+    color: #EEE;
+}
+
+#product_table th, #product_table td {
+    padding: 10px;
+}
+
+#product_table td {
+    background: #d2b14e;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
